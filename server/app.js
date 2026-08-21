@@ -25,7 +25,7 @@ export const app = express();
 // e-commerce-website-ue3j.vercel.app
 
 // const allowedOrigins = ['https://e-commerce-website-omega-black.vercel.app'];
-const allowedOrigins = ['https://e-commerce-website-omega-black.vercel.app/'];
+const allowedOrigins = ['https://e-commerce-website-omega-black.vercel.app'];
 
 app.use(cors({
   origin: function (origin, callback) {
